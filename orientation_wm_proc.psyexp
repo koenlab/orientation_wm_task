@@ -113,7 +113,7 @@
         <Param name="stopType" updates="None" val="frame N" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="degFlat" valType="str"/>
         <Param name="vertices" updates="constant" val="" valType="list"/>
       </PolygonComponent>
       <PolygonComponent name="photosensor_dot">
@@ -141,7 +141,7 @@
         <Param name="stopType" updates="None" val="duration (frames)" valType="str"/>
         <Param name="stopVal" updates="constant" val="study_duration" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="degFlat" valType="str"/>
         <Param name="vertices" updates="constant" val="" valType="list"/>
       </PolygonComponent>
       <ImageComponent name="study_probe">
@@ -168,7 +168,7 @@
         <Param name="stopVal" updates="constant" val="study_duration" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="num"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="degFlat" valType="str"/>
       </ImageComponent>
       <PolygonComponent name="response_ring">
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -193,7 +193,7 @@
         <Param name="stopType" updates="None" val="duration (frames)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="degFlat" valType="str"/>
         <Param name="vertices" updates="constant" val="" valType="list"/>
       </PolygonComponent>
       <ImageComponent name="test_probe">
@@ -220,7 +220,7 @@
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="num"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="degFlat" valType="str"/>
       </ImageComponent>
       <MouseComponent name="trial_mouse">
         <Param name="clickable" updates="constant" val="" valType="list"/>

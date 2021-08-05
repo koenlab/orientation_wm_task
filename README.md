@@ -14,3 +14,4 @@ Some other notes:
 - Options for the task can be (mainly) controlled with the code component in the config routine. This includes timing, teardrop length/size, the range of error added to the angle bins, etc. 
 - To change the center of the angle bins (or the bins overall), modifiy the angle_conditions.csv file
 - Unlike Bae and Luck, this task does not use 0 as one of the angles. All angles are offset by 12.25 degrees from 0 (compared to what Bae and Luck used) to avoid orientations that lie along the abscissa and ordinate. 
+- The screen units are in `deg` (psychopy units) whereas all of the visual stimuli are in `degFlat`. The mouse position is undefined with `degFlat` units. This difference has no bearing on the task or angular calculation from the mouse response. 
