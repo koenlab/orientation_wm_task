@@ -1,4 +1,4 @@
-# Tear Orientation Working Memory Task
+# Teardrop Orientation Working Memory Task
 
 This is the orientation task reported by Bae and Luck (2018) in the Journal of Neuroscience. 
 
